@@ -1,0 +1,5 @@
+# Development / QA dependencies (not required by the production runtime)
+-r requirements.txt
+pytest>=8.0
+pytest-xdist>=3.5
+mongomock-motor>=0.0.30
